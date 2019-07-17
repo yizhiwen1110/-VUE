@@ -1,0 +1,9 @@
+USE wmuname;
+CREATE TABLE ShoppingCart (
+sid INT PRIMARY KEY AUTO_INCREMENT,
+Pictures VARCHAR(20),
+Name VARCHAR(50),
+Price VARCHAR(50),
+Number VARCHAR(20)
+);
+INSERT INTO ShoppingCart VALUES('1','1','DOTA2 - 帕吉 马克杯',248.00,1);
